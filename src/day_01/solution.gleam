@@ -23,7 +23,7 @@ fn create_similarty_list(tuples: List(#(Int, Int))) {
 }
 
 fn part_1() {
-  let filepath = "src/day_01/input.txt"
+  let filepath = "src/day_01/input_p1.txt"
   let assert Ok(content) = simplifile.read(filepath)
   content
   |> string.split("\n")
